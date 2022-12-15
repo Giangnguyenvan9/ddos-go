@@ -1,4 +1,4 @@
-/*
+/*cd ddos-ddos-go 
 Coded by LeeOn123
 Please fking code ur script by ur self, kid.
 I changed the random integers range to the max of int32.
@@ -62,7 +62,7 @@ var (
 		"Googlebot-Video/1.0",
 	}
 	referers = []string{
-		"https://www.google.com/search?q=",
+		"https://www.google.com/search?q=",http;//nathe.vn
 		"https://check-host.net/",
 		"https://www.facebook.com/",
 		"https://www.youtube.com/",
@@ -264,4 +264,4 @@ func main() {
 	close(start)
 	time.Sleep(time.Duration(limit) * time.Second)
 	//Keep the threads continue
-}
+}go run ddos.go 
